@@ -1,5 +1,5 @@
 # Generate Random Test Case Data in VPL
-VPL (Virtual Programming Lab) is a plugin maintained by Juan Carlos Rodriguez (https://github.com/jcrodriguez-dis/moodle-mod_vpl) and these scripts are used to extend its functionality to provide random test case data.
+VPL (Virtual Programming Lab) is a plugin maintained by Juan Carlos Rodriguez (https://github.com/jcrodriguez-dis/moodle-mod_vpl) and these scripts are used to extend its functionality to provide random test case data.  As a high school computer science teacher, it often bothered me that students could write simple conditional statements to solve problems when they already knew what the expected output would be.  Using randomized test cases significantly reduces the occurence of these issues.
 
 The primary idea of these scripts is to create a 'Parent' VPL activity that has 'master' characteristics allowing 'child' activities to have randomized test case data. Once the Parent & Child are created, teachers can simply 'Duplicate' the child to create more activities quickly.  Follow the instructions below to create a VPL activity in the language of your choice that produces randomized output that students can read into their applications using STDIN.
 
