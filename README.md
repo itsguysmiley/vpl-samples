@@ -5,7 +5,7 @@ The primary idea of these scripts is to create a 'Parent' VPL activity that has 
 
 Many thanks to Juan Carlos for his help to create this process.
 
-## To create a 'Parent' VPL Activity in Moodle
+## To create a 'Parent' VPL Activity in Moodle:
 1. Create a VPL Activity and Name it ‘VPL Parent’
 2. Click Settings -> Execution options and enable ‘Evaluation’, ‘Run’ and ‘Debug’. Save.
 3. Click Settings -> Execution Files
@@ -26,8 +26,12 @@ Many thanks to Juan Carlos for his help to create this process.
 7. Add content from your language’s HelloWorld test file from the child folder in git.
 8. Click Evaluate to test!
 
+## To create randomized test case data:
+Open the 'sample' folder and view the sample-random-test-generator.txt file. Note how the case#, input, and output are generated.  Add the contents of this file to the 'child' activity's vpl_evaluate.sh. 
 
-#See here for details on VPL:
+Note that a vpl_evaluate.sh file for most popular languages is available in this git and can be easily modified to suit your needs based on the structure of this php file.
+
+### See here for details on VPL:
 https://moodle.org/plugins/mod_vpl
 http://vpl.dis.ulpgc.es/
 https://github.com/jcrodriguez-dis/moodle-mod_vpl
