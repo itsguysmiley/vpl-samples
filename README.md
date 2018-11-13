@@ -33,6 +33,8 @@ Note that a vpl_evaluate.sh file for most popular languages is available in this
 
 ### See here for details on VPL:
 https://moodle.org/plugins/mod_vpl
+
 http://vpl.dis.ulpgc.es/
+
 https://github.com/jcrodriguez-dis/moodle-mod_vpl
 
