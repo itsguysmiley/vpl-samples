@@ -1,0 +1,59 @@
+php << "END_OF_PHP" > evaluate.cases
+<?php
+$cases = 10;
+
+//create one case at a time
+for($case=1;$case <= $cases; $case++) {
+    
+    //number of  rounds 
+    $rounds = rand(30,40);
+    //generate heads or tales array
+    $headsTalesArray = array();
+    for($x=1;$x <= $rounds; $x++) {
+        $num = rand(0,1);
+        if($num == 0) {
+            array_push($headsTalesArray,'h');
+        } else {
+            array_push($headsTalesArray,'t');
+        }
+    }
+	if((count($headsTalesArray)%2)) {
+		array_push($headsTalesArray,'h');
+	}
+    $flips = $headsTalesArray;
+    $player = 1;
+    $player1Wins = 0;
+    $player2Wins = 0;
+    $round = 1;
+    $counter = 0;
+    $msg='';
+    
+    while($counter < count($flips)) {
+        if($flips[$counter] == 'h') {
+            $player1Wins++;
+        }
+        if($flips[$counter+1] == 'h') {
+            $player2Wins++;
+        }
+        if($player1Wins == 5) {
+            $msg = 'Player 1 wins in round ' . $round;
+            break;
+        }
+        if($player2Wins == 5) {
+            $msg = 'Player 2 wins in round ' . $round;
+            break;
+        }
+        if($player == 1) {
+            $player = 2;
+        } else {
+            $player = 1;
+        }
+        $counter = $counter +2;
+        $round++;
+    }
+    echo "Case = Test " . $case . PHP_EOL;
+    echo "Input=" . implode(',',$headsTalesArray) . PHP_EOL;
+    echo 'Output="' . $msg . '"' . PHP_EOL;
+}
+?>
+END_OF_PHP
