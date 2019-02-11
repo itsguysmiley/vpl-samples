@@ -31,6 +31,9 @@ Open the 'sample' folder and view the sample-random-test-generator.txt file. Not
 
 Note that a vpl_evaluate.sh file for most popular languages is available in this git and can be easily modified to suit your needs based on the structure of this php file.
 
+## View the slideshow
+Click here (https://tinyurl.com/y6xjaz84)to watch a slideshow of the above information layed out in grander detail.
+
 ### See here for details on VPL:
 https://moodle.org/plugins/mod_vpl
 
