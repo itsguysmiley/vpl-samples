@@ -10,7 +10,7 @@ Many thanks to Juan Carlos for his help to create this process.
 2. Click Settings -> Execution options and enable ‘Evaluation’, ‘Run’ and ‘Debug’. Save.
 3. Click Settings -> Execution Files
 4. Using the toolbar, create two new files: evaluate.cases & vpl_evaluate.cpp
-5. Visit my git, and add content from the root to vpl_evaluate.cpp & vpl_evaluate.sh
+5. Add content from the root to vpl_evaluate.sh
 6. Drill into your language of choice and add code from parent -> vpl_run.sh 
 7. Click ‘Save’ in the toolbar.
 8. Click Settings -> Files to keep when running and check: vpl_evaluate.sh, evaluate.cases
